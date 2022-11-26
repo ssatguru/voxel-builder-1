@@ -1,0 +1,53 @@
+All notable changes to this project will be documented in this file,
+UIX improvement and code management is not included in this file.
+
+[3.8.5]
+- new joystick controls for touchscreen (render mode)
+- new bake all and split by color groups
+- update vertex colors on material updates
+- remove unwanted ui buttons in different modes (prevent user confusion)
+
+[3.8.4]
+- the baked mesh is clean, no shared faces, grouped by color
+- add electron package for desktop users
+- add save file dialog for chrome browser
+- major bug fixes and code improvements
+
+[3.8.3]
+- new render mode with a first-person flying camera
+- improve render pipeline
+- improve camera, add multiple cameras
+
+[3.8.2]
+- new separated modeling and bakery modes
+- improve bakery, baked meshes attached to project and stored in vox file
+- improve hdri and rendering quality
+
+[3.8.1]
+- new integrated asset-viewer (preview/convert/copy model)
+- improve pbr material for baked meshes and exported glb
+
+[3.8.0]
+- new marquee selection tool
+- new orthographic camera
+- improve pbr material with environment and textures
+- minecraft style textures and user-defined slots
+- simplify color layers to just colors!
+
+[3.7.8]
+- new preferences menu
+- new project name for file io
+- new hdri environment for pbr material
+- new isometric generator
+
+[3.7.7]
+- new vi²xel touch prototype (extras)
+- new file updater script
+
+[3.7.4]
+- update engine to Babylon 5.0.0+
+- new image voxelization
+- bug 5.x -> workplane/grid -> scaling animation issue
+- bug 5.x -> tool -> transform -> setOverlayCube -> normal scaling issue
+- bug 5.x -> tool -> remove -> ghostVoxel -> another scaling (overlap) issue!
+- bug camera -> framing behavior -> unable to draw at bottom view
